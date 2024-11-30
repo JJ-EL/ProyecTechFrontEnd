@@ -39,6 +39,7 @@ function initLoginForm() {
  * @param {HTMLElement} errorMessage - Elemento para mostrar errores
  */
 async function handleLogin(credentials, errorMessage) {
+    console.log(credentials)
     try {
         const response = await fetch(API_URL, {
             method: 'POST',
