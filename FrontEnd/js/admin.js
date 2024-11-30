@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3001/usuarios";
+const API_URL = "https://a2c7-191-106-154-66.ngrok-free.app/usuarios";
 
 document.addEventListener("DOMContentLoaded",()=>{
     cargaUsuario();

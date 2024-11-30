@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3001/login";
+const API_URL = "https://a2c7-191-106-154-66.ngrok-free.app/login";
 
 // Esperar a que el DOM esté completamente cargado
 document.addEventListener("DOMContentLoaded", () => {
