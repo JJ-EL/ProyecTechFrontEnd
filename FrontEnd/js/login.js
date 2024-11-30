@@ -53,9 +53,9 @@ async function handleLogin(credentials, errorMessage) {
             errorMessage.textContent = data.message; // Mostrar error
         } else {
             if(data.role && data.role.trim().toLowerCase() === "administrador"){
-                window.location.href = "../index.html";
+                window.location.href = "/ProyecTechFrontEnd/FrontEnd/admin.html";
             }else if(data.role && (data.role.trim().toLowerCase() === "profesor" || data.role.trim().toLowerCase() === "profesora")){
-                window.location.href = "../PrincipalProfesor.html"
+                window.location.href = "/ProyecTechFrontEnd/FrontEnd/PrincipalProfesor.html"
             }else{
                 errorMessage.textContent = "Rol no autorizado.";
             }
